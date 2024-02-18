@@ -1,0 +1,39 @@
+.home__apresentation_logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__apresentation_image {
+    width: 3.5rem;
+}
+
+.home__apresentation_title {
+    margin: .5rem 0;
+    font-size: 2.5rem;
+    color: #FFFFFE;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.home__apresentation_subtitle {
+    color: #2CB67D;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.home__apresentation_shadow {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    filter: blur(70px);
+    background: #2CB67D;
+}
+
+.home__apresentation_arrow {
+    font-family: 'Quicksand', sans-serif;
+}

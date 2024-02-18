@@ -1,0 +1,93 @@
+.signin {
+    position: relative;
+    background: #282B3090;
+    width: max-content;
+    backdrop-filter: blur(4px);
+    border: 1px solid #545454;
+    border-radius: 7px;
+    margin: 5rem auto 1rem auto;
+    padding: 4rem 2.25rem 3.5rem 2.25rem;
+}
+
+.signin__inputs {
+    margin: 2rem 0 0 0;
+}
+
+.signin__division {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1.5rem 0 0 0;
+}
+
+.signin__label {
+    font-size: .85rem;
+    font-weight: 300;
+    margin: 0 0 .35rem 0;
+    color: #FFFFFE;
+}
+
+.signin__input {
+    border: none;
+    border-radius: 3px;
+    background: #424549;
+    width: 100%;
+    padding: .5rem .5rem .5rem .75rem;
+    color: #FFFFFE;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.signin__input::placeholder {
+    font-size: .75rem;
+}
+
+.signin__input:focus {
+    outline: none;
+    box-shadow: #2CB67D96 0px 0px 0px 3px;
+}
+
+.signin__forget {
+    cursor: pointer;
+    color: #FFFFFE;
+    font-weight: 300;
+    margin: .5rem 0 0 auto;
+    font-size: .75rem;
+    width: 100px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.signin__forget:hover {
+    color: #2CB67D;
+}
+
+.signin__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin__button {
+    padding: 10px 118px 10px 118px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFE;
+    border-radius: 3px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.signin__signin {
+    background: #2CB67D;
+    margin: 1.5rem 0 0 0;
+}
+
+.signin__signin:hover {
+    background: #2CC987;
+}
+
+.signin__signup {
+    background: transparent;
+    margin: .5rem 0 0 0;
+}
+
+.signin__signup:hover {
+    color: #2CB67D;
+}
