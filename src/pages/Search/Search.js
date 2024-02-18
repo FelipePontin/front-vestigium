@@ -6,9 +6,9 @@ import './Search.css'
 const Search = () => {
 
     const logs = [
-        { id: 0, time: '08/07/2022 09:46:55PM', event: '{application:bff-ns-digital-account,body:[consumerIp:127.0.0.6,consumerKey:iOS ]custom:[date:2022-08-07T21:46:55.552Z]duration:50elasticSearchIndex:bff-ms-digital-account-prdenvironment:prdheaders:{[+]}level:infomessage:Successmethod:getpath:/api/bffmsdigitalaccount/v1/onboarding/registration-update/confirmationprocessId:749c2c00-169a-11ed-b2a8-0f586ae5d804res}' },
-        { id: 1, time: '08/07/2022 09:46:55PM', event: '{application:bff-ns-digital-account,body:[consumerIp:127.0.0.6,consumerKey:iOS ]custom:[date:2022-08-07T21:46:55.552Z]duration:50elasticSearchIndex:bff-ms-digital-account-prdenvironment:prdheaders:{[+]}level:infomessage:Successmethod:getpath:/api/bffmsdigitalaccount/v1/onboarding/registration-update/confirmationprocessId:749c2c00-169a-11ed-b2a8-0f586ae5d804res}' },
-        { id: 1, time: '08/07/2022 09:46:55PM', event: '{application:bff-ns-digital-account,body:[consumerIp:127.0.0.6,consumerKey:iOS ]custom:[date:2022-08-07T21:46:55.552Z]duration:50elasticSearchIndex:bff-ms-digital-account-prdenvironment:prdheaders:{[+]}level:infomessage:Successmethod:getpath:/api/bffmsdigitalaccount/v1/onboarding/registration-update/confirmationprocessId:749c2c00-169a-11ed-b2a8-0f586ae5d804res}' },
+        { id: 0, time: '08/07/2022 09:46:55PM', event: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries` },
+        { id: 1, time: '08/07/2022 09:46:55PM', event: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries` },
+        { id: 1, time: '08/07/2022 09:46:55PM', event: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries` },
     ]
 
     const totalEvents = `(${logs.length})`
